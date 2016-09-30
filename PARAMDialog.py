@@ -46,6 +46,7 @@ class PARAMDialog(QDialog):
         DP += str(self.ui.ParamUmax.value())
         DP += "    umax~sqrt(2*(Hmax-Hmin)*g+u0^2) for example...\n"
         DP += str(self.ui.ParamDtUmax_rmin.value())
+        DP += "	dt*umax/rmin;\n"
         DP += "\n"
         if self.ui.ParamUzawa.isChecked():
             DP += "1    PROJECTION METHOD (1=Uzawa 3=Optimized Uzawa 42=couplage CAFES dim 2, 43=couplage CAFES dim 3)\n"
@@ -65,7 +66,7 @@ class PARAMDialog(QDialog):
         DP += "    Dmin\n"
         DP += str(self.ui.ParamMaxiter.value())
         DP += "    maxiter\n"
-        DP += "\n"
+        DP += " \n"
         DP += "1	NEIGHBOURGS METHOD (1=Boxes)\n"
         
         return DP

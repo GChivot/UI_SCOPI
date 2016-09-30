@@ -115,9 +115,9 @@ class ForcesDialog(QDialog):
             ForcesData += "0    5     0    0    0    0   0   0   0   0   0   0  0 (ptax,ptay,ptaz,ptbx,ptby,ptbz,ex,ey,ez,Uf,nu)\n"
 
         if self.ui.ForceCisailmacro.isChecked():
-            ForcesData += "cis_macro     0    7     0    0    0    0   0.5 0   1   0   0   1  1 (ptax,ptay,ptaz,ptbx,ptby,ptbz,ex,ey,ez,Uf,nu)\n"
-        else:
             ForcesData += "cis_macro     1    7     0    0    0    0   0.5 0   1   0   0   1  1 (ptax,ptay,ptaz,ptbx,ptby,ptbz,ex,ey,ez,Uf,nu)\n"
+        else:
+            ForcesData += "cis_macro     0    7     0    0    0    0   0.5 0   1   0   0   1  1 (ptax,ptay,ptaz,ptbx,ptby,ptbz,ex,ey,ez,Uf,nu)\n"
 
         if self.ui.ForcePoiseuille.isChecked():
             ForcesData += "poiseuille    1	   8	 0    0	   0	0   0	0   0	0   0	0  0\n"

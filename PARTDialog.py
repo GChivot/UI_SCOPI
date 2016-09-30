@@ -81,7 +81,7 @@ class PARTICLESDialog(QDialog):
             self.ParticleString += " "
             self.ParticleString += str(self.ui.ParticleOmegaz.value())
 
-        if self.ui.ParticleRbmin.value()>0.0 and self.ui.ParticleRcmin.value()>0.0:
+        if self.ui.ParticleRbmin.value()>0.0 or self.ui.ParticleRcmin.value()>0.0:
             self.ParticleString += " 1 "
         else:
             self.ParticleString += " 0 "
