@@ -29,7 +29,7 @@
       </size>
      </property>
      <property name="currentIndex">
-      <number>1</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
@@ -5098,7 +5098,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesDisqueUx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesDisqueUx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5112,7 +5116,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesDisqueX"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesDisqueX">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5126,7 +5134,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesDisqueY"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesDisqueY">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5140,7 +5152,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesDisqueUy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesDisqueUy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5168,7 +5184,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesDisqueRandx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesDisqueRandx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5182,7 +5202,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesDisqueRandy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesDisqueRandy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5241,7 +5265,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereY"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereY">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5255,7 +5283,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereX"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereX">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5269,7 +5301,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereZ"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereZ">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5283,7 +5319,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereUx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereUx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5297,7 +5337,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereUy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereUy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5311,7 +5355,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereRandx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereRandx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5325,7 +5373,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereRandy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereRandy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5339,7 +5391,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereUz"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereUz">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5353,7 +5409,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSphereRandz"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSphereRandz">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5440,7 +5500,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSegmentY1"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSegmentY1">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5454,7 +5518,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSegmentX2"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSegmentX2">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5468,7 +5536,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSegmentY2"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSegmentY2">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5482,7 +5554,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSegmentX1"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSegmentX1">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5496,7 +5572,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSegmentUx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSegmentUx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5510,7 +5590,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSegmentUy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSegmentUy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5524,7 +5608,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSegmentRandx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSegmentRandx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5538,7 +5626,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesSegmentRandy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesSegmentRandy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5567,7 +5659,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanX3"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanX3">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5581,7 +5677,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanY1"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanY1">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5595,7 +5695,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanX2"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanX2">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5609,7 +5713,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanX1"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanX1">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5623,7 +5731,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanZ1"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanZ1">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5637,7 +5749,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanBeta"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanBeta">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5665,7 +5781,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanY2"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanY2">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5679,7 +5799,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanRandx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanRandx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5693,7 +5817,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanUx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanUx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5707,7 +5835,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanX4"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanX4">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5721,7 +5853,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanY4"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanY4">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5735,7 +5871,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanZ4"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanZ4">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5749,7 +5889,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanZ2"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanZ2">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5763,7 +5907,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanUy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanUy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5777,7 +5925,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanY3"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanY3">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5791,7 +5943,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanZ3"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanZ3">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5805,7 +5961,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanUz"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanUz">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5819,7 +5979,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanRandz"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanRandz">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5833,7 +5997,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesPlanRandy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesPlanRandy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5894,7 +6062,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreZc1"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreZc1">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5908,7 +6080,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreUx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreUx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5922,7 +6098,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreUy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreUy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5936,7 +6116,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreRandx"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreRandx">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5950,7 +6134,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreYc1"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreYc1">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -5978,7 +6166,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreRandy"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreRandy">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -6006,7 +6198,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreRandz"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreRandz">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -6020,7 +6216,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreUz"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreUz">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -6034,7 +6234,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreXc1"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreXc1">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -6048,7 +6252,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreXc2"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreXc2">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -6062,7 +6270,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreYc2"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreYc2">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -6076,7 +6288,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreZc2"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreZc2">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -6090,7 +6306,11 @@ sur les contacts :</string>
                </widget>
               </item>
               <item>
-               <widget class="QDoubleSpinBox" name="ObstaclesCylindreBeta"/>
+               <widget class="QDoubleSpinBox" name="ObstaclesCylindreBeta">
+                <property name="minimum">
+                 <double>-99.000000000000000</double>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -6148,6 +6368,497 @@ sur les contacts :</string>
           <attribute name="title">
            <string>Macros</string>
           </attribute>
+          <widget class="QWidget" name="layoutWidget_20">
+           <property name="geometry">
+            <rect>
+             <x>270</x>
+             <y>250</y>
+             <width>461</width>
+             <height>42</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>6</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="MacroChainButton">
+              <property name="text">
+               <string>Chaine</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_21">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QPushButton" name="MacroRedCellButton">
+              <property name="whatsThis">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ceci est un test, qu'est ce que ça fait ?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="text">
+               <string>globule rouge</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="MacroRedCellWidget" native="true">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>600</x>
+             <y>320</y>
+             <width>164</width>
+             <height>221</height>
+            </rect>
+           </property>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>144</width>
+              <height>221</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_283">
+               <item>
+                <widget class="QLabel" name="VAPLabelEDODissip_2">
+                 <property name="text">
+                  <string>Coh_rmac :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDoubleSpinBox" name="MacroRedCellCohrmac"/>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_49">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_284">
+               <item>
+                <widget class="QLabel" name="VAPLabelEDODissip_3">
+                 <property name="text">
+                  <string>Coh_k :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDoubleSpinBox" name="MacroRedCellCohk"/>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_50">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_285">
+               <item>
+                <widget class="QLabel" name="VAPLabelEDODissip_4">
+                 <property name="text">
+                  <string>Coh_ka :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDoubleSpinBox" name="MacroRedCellCohka"/>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_51">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_286">
+               <item>
+                <widget class="QLabel" name="VAPLabelEDODissip_5">
+                 <property name="text">
+                  <string>pcr :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDoubleSpinBox" name="MacroRedCellPcr"/>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_52">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_287">
+               <item>
+                <widget class="QLabel" name="VAPLabelEDODissip_6">
+                 <property name="text">
+                  <string>pcraux :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDoubleSpinBox" name="MacroRedCellPcraux"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="MacroChainWidget" native="true">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>240</x>
+             <y>320</y>
+             <width>144</width>
+             <height>71</height>
+            </rect>
+           </property>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>144</width>
+              <height>71</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_288">
+               <item>
+                <widget class="QLabel" name="VAPLabelEDODissip_7">
+                 <property name="text">
+                  <string>pcr :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDoubleSpinBox" name="MacroChainPcr">
+                 <property name="minimum">
+                  <double>0.500000000000000</double>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="verticalSpacer_53">
+               <property name="orientation">
+                <enum>Qt::Vertical</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>20</width>
+                 <height>40</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_289">
+               <item>
+                <widget class="QLabel" name="VAPLabelEDODissip_8">
+                 <property name="text">
+                  <string>Coh_ka :</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDoubleSpinBox" name="MacroChainCohka"/>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+          <widget class="QPushButton" name="MacroChainAddButton">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>260</x>
+             <y>570</y>
+             <width>80</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="MacroRedCellAddButton">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="geometry">
+            <rect>
+             <x>640</x>
+             <y>570</y>
+             <width>80</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>add</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="MacroSeeButton">
+           <property name="geometry">
+            <rect>
+             <x>960</x>
+             <y>630</y>
+             <width>80</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>see</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="MacroClearButton">
+           <property name="geometry">
+            <rect>
+             <x>860</x>
+             <y>630</y>
+             <width>80</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="font">
+            <font>
+             <kerning>false</kerning>
+            </font>
+           </property>
+           <property name="text">
+            <string>clear</string>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget">
+           <property name="geometry">
+            <rect>
+             <x>40</x>
+             <y>70</y>
+             <width>981</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_67">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_59">
+              <item>
+               <widget class="QLabel" name="label_43">
+                <property name="text">
+                 <string>Name</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPlainTextEdit" name="MacroName">
+                <property name="plainText">
+                 <string>Part</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_22">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_66">
+              <item>
+               <widget class="QLabel" name="label_50">
+                <property name="text">
+                 <string>gpe utilisé :</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_20">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="MacroGPE"/>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_23">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_65">
+              <item>
+               <widget class="QLabel" name="label_49">
+                <property name="text">
+                 <string>Nombre de particules/macros</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_19">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="MacroNbPart_NbMacros">
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_24">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_62">
+              <item>
+               <widget class="QLabel" name="label_46">
+                <property name="text">
+                 <string>Nombre de macros</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_18">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>40</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
+              </item>
+              <item>
+               <widget class="QSpinBox" name="MacroNbMacros">
+                <property name="minimum">
+                 <number>1</number>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+          <zorder>layoutWidget</zorder>
+          <zorder>layoutWidget_20</zorder>
+          <zorder>MacroRedCellWidget</zorder>
+          <zorder>MacroChainWidget</zorder>
+          <zorder>MacroChainAddButton</zorder>
+          <zorder>MacroRedCellAddButton</zorder>
+          <zorder>MacroSeeButton</zorder>
+          <zorder>MacroClearButton</zorder>
          </widget>
         </widget>
        </item>
